@@ -1,0 +1,24 @@
+﻿# ===== 密钥 / 环境 =====
+.env
+.env.local
+*.secret
+.env.*.local
+
+# ===== 敏感数据（真实线索/客户/登录态，绝不公开）=====
+data/
+output/
+automation_profile/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
